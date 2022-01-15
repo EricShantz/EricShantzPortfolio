@@ -1,0 +1,212 @@
+body {
+  background: white !important;
+}
+
+.contactForm {
+  position: absolute;
+  top: 5rem;
+  height: 60vh;
+}
+
+.contactHeading {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactHeading h1 {
+  margin-left: 2vw;
+}
+
+.contactHeading i {
+  margin-top: 4.5vh;
+  margin-left: 0.5vw;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+}
+
+.links {
+  color: black;
+}
+
+form {
+  width: 30vw;
+  margin-top: 25vh;
+  margin-left: 2vw;
+}
+
+.textArea {
+  margin-left: 0.6rem;
+}
+
+label {
+  display: block;
+}
+textarea {
+  display: block;
+}
+
+#first_name,
+#email,
+#phone,
+#msg {
+  margin-left: 1rem;
+}
+
+input#email {
+  margin-left: 3rem !important;
+}
+
+#msgLabel {
+  margin-left: 0.7vw;
+  font-size: 1rem;
+}
+
+/* ====================CONtact============= */
+#containerContact {
+  transform: translateY(-15vh);
+  background-color: white;
+}
+.formDiv {
+  margin-top: 20vh;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+}
+
+.emailInput {
+  /* min-width: 20vw; */
+  transform: translateX(-0.5vw);
+}
+
+#projectTime {
+  font-size: 0.9rem;
+  text-align: center;
+  color: blue;
+}
+
+.material-icons.prefix.send {
+  transform: translateX(-0.08vw);
+}
+
+.file-field.input-field {
+  transform: translateY(-3vw);
+}
+
+.file-path-wrapper {
+  transform: translateX(2vw);
+  min-width: 48vw;
+}
+
+.btn {
+  background-color: black;
+  transform: translateX(-0.5vw);
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-3vh);
+}
+
+.form-submit-button {
+  background: #0066a2;
+  color: white;
+  border-style: outset;
+  border-color: #0066a2;
+  height: 5vh;
+  min-width: 35vw;
+  font: bold 15px arial, sans-serif;
+  text-shadow: none;
+  border-radius: 20px;
+  transition: all 0.4s;
+  margin-bottom: 2vh;
+}
+
+.form-submit-button:hover {
+  transform: scale(1.1);
+}
+
+/* ====================Media Queries================ */
+
+@media only screen and (max-width: 1300px) {
+  .background {
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .background {
+    width: 35vw;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .background {
+    position: fixed;
+    top: -20%;
+    left: 0;
+    width: 100vw;
+    z-index: 0;
+  }
+
+  .contactForm {
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    top: 20rem;
+    right: -10;
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .contactHam {
+    color: white;
+  }
+
+  form {
+    margin-top: -3rem;
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #leftArrow {
+    display: none;
+  }
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #leftArrow {
+    display: none;
+  }
+
+  .background {
+    position: fixed;
+    top: -35%;
+    left: 0;
+    width: 100vw;
+    z-index: 0;
+  }
+
+  .contactForm {
+    position: absolute;
+    top: 13rem;
+    right: -10;
+  }
+}

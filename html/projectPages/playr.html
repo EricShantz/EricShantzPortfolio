@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/projectStyles/goobie.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="../../js/main.js" defer></script>
+  <title>Eric Shantz - Portfolio</title>
+</head>
+
+<body>
+  <!-- ============mobile hamburger menu============== -->
+  <nav class="transparent z-depth-0 navbar-fixed">
+    <div class="nav-wrapper">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
+        <ul class="right hide-on-med-and-down header" id="portfolioHeader">
+          <li><a href="../../index.html" class="links">Home</a></li>
+          <li><a href="../portfolio.html" class="activeTab">Portfolio</a></li>
+          <li><a href="../games.html" class="links">Games</a></li>
+          <li><a href="../resume.html" class="links">Resume</a></li>
+          <li><a href="../contact.html" class="links">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <img src="../../assets/a-team-christmas.jpg" alt="My Dev Team" id="a-team">
+
+    <li><a href="../../index.html" class="sidenav-active"><i class="material-icons">home</i>Home</a></li>
+    <li><a href="../../html/portfolio.html"><i class="material-icons">book</i>Portfolio</a></li>
+    <li><a href="../../html/games.html"><i class="material-icons">games</i>Games</a></li>
+    <li><a href="../../html/resume.html"><i class="material-icons">filter_none</i>Resume</a></li>
+    <li><a href="../../html/contact.html"><i class="material-icons">person</i>Contact</a></li>
+  </ul>
+
+  <!-- ============mobile hamburger menu============== -->
+
+  <div class="headerBackground"></div>
+
+  <main>
+    <div class="darkTop">
+      <div class="goobieIconPosition">
+        <img src="../../assets/graphics/playrAppIcon.png" alt="goobie logo" class="goobieLogo">
+      </div>
+      <p class="portfolioHeaderProjects">Music Player</p>
+      <div class="redLine"></div>
+    </div>
+
+    <section class="projectDetails">
+
+      <div id="aboutDiv">
+        <p class="aboutHeader">About the Project</p>
+        <div class="aboutTextDiv">
+          <p class="aboutText">
+            This music app is an interactive cross-platform application developed with Cordova. Users can upload their
+            favourite songs and album art to add to their list. Users can also add a song to their "Top Picks" by
+            clicking on the heart in the top right corner of the song page. The app contains
+            other features such as speaker icons, a footer with
+            details and controls, and an interactive slider on the song page.
+          </p>
+
+          <div class="largeIcons">
+            <video src="../../assets/graphics/playrDemo.mp4" alt="playr demo" controls type="video/mp4" autoplay
+              id="goobieDemo" class="playrDemo">
+          </div>
+        </div>
+      </div>
+
+      <div id="techUsed">
+        <p class="subheadingLeft">Technologies Used</p>
+
+        <div class="techUsedLeftText">
+          <p class="projectDetailsTextLeft">Built with Cordova and designed for Android, this app focuses on the cordova
+            media plugin and handles successes and failures according to it's documentation. It's a Single Page
+            Application (SPA) which means its load time is low, and it responds to user input very quickly. Device
+            Local Storage was cleverly implemented to store and retrieve the pause location of the last song played.
+          </p>
+
+          <img src="../../assets/graphics/playrDocs.png" alt="" class="reactEG">
+        </div>
+      </div>
+
+      <div id="implementationPlayr">
+        <div class="techUsedRightText">
+          <div class="techImgs techPlayerImg">
+            <img src="../../assets/graphics/playrImp.png" alt="playr code" id="playerImpImg">
+          </div>
+          <div class="techText">
+            <p class="subheadingRight">Implementation</p>
+            <p class="projectDetailsTextRight playrText">Cordova is a useful tool as it allows the developer to build an
+              app using
+              Javascript, HTML5, and CSS then build platform specific web assets for either Android or IOS. Once you run
+              the build command, you simply need to run it on the device you choose and it will download. As this app is
+              for personal use I have not implemented it on any publicly accessible platforms.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    })
+  </script>
+</body>
+
+</html>

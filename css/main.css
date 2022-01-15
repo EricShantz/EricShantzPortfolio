@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #1f3d3d,
+    #2a5353,
+    #2c5858,
+    #386e6e,
+    #478d8d
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.nav-wrapper {
+  position: fixed !important;
+}
+
+#a-team {
+  max-width: 100%;
+}
+
+.contactHam {
+  color: black;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
+  z-index: 21;
+}
+
+.headerBackground {
+  background-color: #101e1e;
+  z-index: 20;
+  height: 4.8rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header > a {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  width: 1.5rem;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s;
+  font-size: 1.5rem !important;
+}
+
+.links:hover {
+  border-bottom: 1px solid #d38d0e;
+  background-color: transparent;
+}
+
+.activeTab {
+  background-color: #d38d0e;
+  color: black;
+  text-decoration: none;
+  height: 5.3rem;
+  font-size: 1.5rem !important;
+}
+
+.activeTab:hover {
+  background-color: #d38d0e;
+}
+
+.welcome {
+  position: relative;
+  margin: auto;
+  margin-top: 11rem;
+  z-index: 0;
+}
+
+.welcomeText {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 2.3rem;
+  color: white;
+  font-weight: 100;
+}
+
+.seeMyWork {
+  background-color: #d38d0e;
+  width: 14rem;
+  padding: 0.1rem 3rem;
+  border-radius: 50px;
+  transition: all 0.6s;
+}
+
+.seeMyWork:hover {
+  transform: scale(1.1);
+}
+
+.seeMyWork {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.seeMyWorkBtn {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: -2.3rem;
+  margin-top: 0.5rem;
+  width: 15rem;
+  color: black;
+}
+.seeMyWorkDiv {
+  text-decoration: none;
+  z-index: 10;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.cardBtn a {
+  border-radius: 50px;
+  margin-top: 10rem;
+  margin-left: 10vw;
+  background-color: #d38d0e;
+}
+
+/* =========loading icon=========== */
+
+#spinner {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 8rem;
+  margin-bottom: -38.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader {
+  margin: auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid var(--callOutColor);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* =========loading icon end=========== */
+
+@media only screen and (max-width: 429px) {
+  .seeMyWork {
+    position: relative;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+  }
+
+  .seeMyWorkBtn {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: -2.3rem;
+    margin-top: 0.5rem;
+    width: 15rem;
+    color: black;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .welcomeText {
+    font-size: 1.3rem;
+    margin-top: -4rem;
+  }
+}

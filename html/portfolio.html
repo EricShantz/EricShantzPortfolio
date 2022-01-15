@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/portfolio.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <script src="../js/main.js" defer></script>
+  <title>Eric Shantz - Portfolio</title>
+</head>
+
+<body>
+  <!-- ============mobile hamburger menu============== -->
+  <nav class="transparent z-depth-0 navbar-fixed">
+    <div class="nav-wrapper">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
+        <ul class="right hide-on-med-and-down header" id="portfolioHeader">
+          <li><a href="../index.html" class="links">Home</a></li>
+          <li><a href="../html/portfolio.html" class="activeTab">Portfolio</a></li>
+          <li><a href="../html/games.html" class="links">Games</a></li>
+          <li><a href="../html/resume.html" class="links">Resume</a></li>
+          <li><a href="../html/contact.html" class="links">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <img src="../assets/a-team-christmas.jpg" alt="My Dev Team" id="a-team">
+
+    <li><a href="../index.html" class="sidenav-active"><i class="material-icons">home</i>Home</a></li>
+    <li><a href="../html/portfolio.html"><i class="material-icons">book</i>Portfolio</a></li>
+    <li><a href="../html/games.html"><i class="material-icons">games</i>Games</a></li>
+    <li><a href="../html/resume.html"><i class="material-icons">filter_none</i>Resume</a></li>
+    <li><a href="../html/contact.html"><i class="material-icons">person</i>Contact</a></li>
+  </ul>
+
+  <!-- ============mobile hamburger menu============== -->
+
+  <div class="headerBackground"></div>
+
+  <main>
+    <div class="darkTop">
+      <p class="portfolioHeader">Portfolio</p>
+      <img src="../assets/aboutPhoto.png" alt="Eric Shantz" class="aboutPhoto">
+      <div class="redLine"></div>
+      <div class="aboutMe">
+        <p>I’m Eric Shantz, I’m a Mobile App Development & Design student finishing my second year at
+          Algonquin College. I’m looking to find work in the industry to improve my design and development skills.</p>
+      </div>
+    </div>
+
+    <div id="downArrowDiv">
+      <i id="downArrow" class="material-icons downArrow">keyboard_arrow_down</i>
+    </div>
+
+    <div class="listDiv">
+
+      <div class="listItems" id="goobieDiv">
+        <div class="goobieListText listText">
+          <h2 style="color:black; margin-top: -2rem;">Goobie</h2>
+          <p>Bored with your friends and don't know what to do? Goobie provides a list of games that you and your
+            friends can play together! Built with React Native, Goobie works on both Android and IOS and includes some
+            fun Expo APIs to make the user experience all the better.
+          </p>
+          <a href="../html/projectPages/goobie.html" class="waves-effect waves-light btn">See
+            More</a>
+        </div>
+
+        <div class="goobiePhoneDiv">
+          <img src="../assets/graphics/goobiePhone.png" class="goobiePhone" alt="goobie">
+        </div>
+      </div>
+
+      <div class="listItems" id="playrDiv">
+
+        <div class="playrImgDiv">
+          <img src="../assets/graphics/playrPhone2.png" class="playrPhone" alt="goobie">
+        </div>
+
+        <div class="playrListText listText">
+          <h2 style="color:white; margin-top: -1vw;">Music Player</h2>
+          <p>This music player app is a single page application for Android built with Cordova. The app contains 2
+            scrollable lists, a search function/page, and a screen to display the current song playing along with all of
+            its controls. The user can add any song to their "Top Picks" by clicking the heart icon on the song page.
+          </p>
+          <a href="../html/projectPages/playr.html" class="waves-effect waves-light btn">See More</a>
+        </div>
+
+
+        <div>
+          <img src="../assets/graphics/playrPhone.png" class="playrPhone2" alt="goobie">
+        </div>
+
+      </div>
+
+      <div class="listItems" id="githubDiv">
+        <div class="iosText listText">
+          <h2 class="listTitle">Github User Search</h2>
+          <p>This app connects to the GitHub Rest API and allows users to search for gitHub users. Users are able to
+            filter results based on number of followers and can limit the amount of pages shown after a fetch. The app
+            contains 5 individual pages and is designed for both landscape and portrait mode.
+          </p>
+          <a href="../html/projectPages/githubUserSearch.html" class="waves-effect waves-light btn"
+            style="margin:1rem 0 0 5rem">See More</a>
+        </div>
+
+        <div class="iosImg">
+          <img src="../assets/graphics/ios5.png" class="sideWaysIOS" alt="">
+        </div>
+      </div>
+
+      <div class="listItems" id="podpileDiv">
+        <div>
+          <img src="../assets/graphics/podpilePhone.png" class="podpilePhone" alt="">
+        </div>
+        <div class="podpileText listText">
+          <h2 style='color: white; margin-top: -1rem;'>PodPile</h2>
+          <p>PodPile is a web app built with Next.JS that utilizes CRUD functionality. Users can store a list of their
+            favourite podcasts, add new list items with details such as title, author, genre, and an image. Users can
+            also edit and delete any podcast in their list. The app was designed to be responsive for web.
+          </p>
+          <a href="../html/projectPages/podPile.html" class="waves-effect waves-light btn">See More</a>
+
+        </div>
+      </div>
+
+      <div class="listItems" id="weatherDiv">
+        <div class="weatherText">
+          <h2 style="color: black; margin-top: -1rem;">Weather App</h2>
+          <p>This weather app was a fun and simple project to work on using vanilla Javascript, HTML5, and CSS. The use
+            of multiple RESTful APIs allows the user to see the weather based on their current location, or search for
+            weather anywhere in the world. The app also displays general current information, as well as hourly and
+            weekly weather forecasts. Each type of weather has its own dynamic background.
+          </p>
+          <a href="../html/projectPages/weatherApp.html" class="waves-effect waves-light btn">See More</a>
+
+        </div>
+        <div class="weatherImg">
+          <img src="../assets/graphics/weatherPhone1.png" class="weatherPhone1" alt="">
+          <img src="../assets/graphics/weatherPhone2.png" class="weatherPhone2" alt="">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    })
+  </script>
+</body>
+
+</html>

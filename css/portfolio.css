@@ -1,0 +1,855 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.darkTop {
+  min-width: 100vw;
+  height: 47rem;
+  background-color: #101e1e;
+  position: absolute;
+  top: 3.9rem;
+  left: 0;
+  z-index: 10;
+}
+
+.portfolioHeader {
+  color: white;
+  text-align: center;
+  margin-top: 4rem;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+}
+
+.aboutPhoto {
+  display: block;
+  width: 15rem;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.redLine {
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 5rem;
+  height: 3px;
+  background-color: rgb(204, 1, 1);
+  margin-bottom: 3rem;
+}
+
+.aboutMe {
+  margin: auto;
+  text-align: center;
+  width: 65vw;
+}
+
+.aboutMe > p {
+  color: white;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+#downArrowDiv {
+  background-color: #ffa700;
+  border-radius: 50px;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 49rem;
+  left: 48vw;
+  z-index: 11;
+  transition: all 0.6s;
+}
+
+#downArrowDiv:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.downArrow {
+  text-align: center;
+  color: white;
+}
+
+i.material-icons.downArrow {
+  display: block;
+  margin: auto;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.listDiv {
+  position: absolute;
+  top: 51rem;
+  left: 0;
+}
+
+.listItems {
+  height: auto;
+  width: 100vw;
+  z-index: -10;
+}
+
+.listItems a {
+  border-radius: 50px;
+  background-color: #d38d0e;
+  width: 10rem;
+}
+
+.listText p {
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+#goobieDiv {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 34rem;
+}
+
+.goobiePhone {
+  width: 15.5rem;
+  margin-top: 1.5rem;
+}
+
+.goobieListText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  margin-right: 5vw;
+  margin-left: 15vw;
+}
+
+#playrDiv {
+  display: flex;
+  background-color: #284d4d;
+
+  flex-direction: row;
+  height: 34rem;
+  z-index: -10;
+}
+
+.playrImgDiv {
+  z-index: 0;
+}
+
+.playrPhone {
+  width: 15rem;
+  margin-top: 2rem;
+  margin-left: 4vw;
+  margin-right: -12rem;
+}
+
+.playrPhone2 {
+  width: 18rem;
+  margin-top: 12rem;
+}
+
+.playrListText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45vw;
+  margin-left: 18rem;
+  color: white;
+}
+
+#githubDiv {
+  position: relative;
+  background-color: #533b8e;
+  display: flex;
+  flex-direction: row;
+  height: 34rem;
+  z-index: 1;
+}
+
+.sideWaysIOS {
+  position: absolute;
+  right: 3vw;
+  top: 8rem;
+  width: 35rem;
+}
+
+.listTitle {
+  margin-top: 8vw;
+  margin-left: 5rem;
+  color: white;
+}
+
+.iosText {
+  margin-top: 1.5rem;
+}
+
+.iosText p {
+  width: 45vw;
+  margin: 2vw 6rem 0 5rem;
+  color: white;
+}
+
+#podpileDiv {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 34rem;
+}
+
+.podpilePhone {
+  margin: 5rem 12rem 0 5rem;
+  width: 20rem;
+}
+
+.podpileText {
+  color: white;
+  margin-top: 9vw;
+  margin-left: 5vw;
+  width: 50vw;
+}
+
+#weatherDiv {
+  background-color: #d8d8d8;
+  display: flex;
+  flex-direction: row;
+  height: 34rem;
+  position: relative;
+  z-index: 1;
+}
+
+.weatherText {
+  color: rgb(0, 0, 0);
+  margin-top: 10rem;
+  margin-left: 5vw;
+  width: 40vw;
+  overflow: auto;
+}
+
+.weatherImg {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15vw;
+}
+
+.weatherPhone1 {
+  width: 12rem;
+  height: 25rem;
+  margin-top: 3rem;
+}
+.weatherPhone2 {
+  margin-top: 7rem;
+  width: 12rem;
+  height: 25rem;
+}
+
+/* =========================Media Queries==================== */
+
+/* about me */
+@media only screen and (max-width: 482px) {
+  .aboutMe p {
+    width: 80vw;
+    margin-left: -2.5rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .aboutMe p {
+    width: 80vw;
+    margin-left: -2.2rem;
+  }
+}
+@media only screen and (max-width: 391px) {
+  .aboutMe p {
+    width: 90vw;
+    margin-left: -3.4rem;
+  }
+}
+
+/* down arrow */
+@media only screen and (max-width: 750px) {
+  #downArrowDiv {
+    margin-left: -2vw;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #downArrowDiv {
+    margin-left: -5vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #downArrowDiv {
+    margin-left: -4vw;
+  }
+}
+
+/* Goobie */
+
+@media only screen and (max-width: 780px) {
+  .goobieListText p {
+    width: 50vw;
+  }
+
+  .goobieListText {
+    margin-left: 3vw;
+    margin-left: 8vw;
+  }
+
+  .goobiePhone {
+    width: 12rem;
+    margin-top: 5rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #goobieDiv {
+    display: flex;
+    flex-direction: column;
+    height: 48rem;
+  }
+
+  .goobieListText {
+    margin-left: 8vw;
+    margin-top: 5rem;
+  }
+
+  .goobieListText p {
+    width: 90vw;
+  }
+
+  .goobiePhoneDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .goobiePhone {
+    width: 11rem;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .goobiePhone {
+    width: 10rem;
+    margin-top: 2rem;
+  }
+}
+
+/* Playr */
+@media only screen and (max-width: 1100px) {
+  .playrPhone2 {
+    display: none;
+  }
+
+  .playrListText {
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .playrPhone {
+    width: 15rem;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 610px) {
+  #playrDiv {
+    display: flex;
+    flex-direction: column;
+    height: 55rem;
+  }
+
+  .playrListText {
+    position: absolute;
+    top: 38rem;
+    right: 0rem;
+  }
+  .playrPhone {
+    width: 13rem;
+    position: absolute;
+    top: 58rem;
+    left: 28vw;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #playrDiv {
+    height: 52rem;
+  }
+  .playrListText {
+    position: absolute;
+    top: 52rem;
+    right: 1rem;
+  }
+  .playrListText p {
+    width: 90vw;
+  }
+  .playrPhone {
+    width: 13rem;
+    position: absolute;
+    top: 70rem;
+    left: 28vw;
+  }
+}
+@media only screen and (max-width: 512px) {
+  #playrDiv {
+    height: 55rem;
+  }
+  .playrListText {
+    position: absolute;
+    top: 52rem;
+    right: 1rem;
+  }
+  .playrPhone {
+    width: 13rem;
+    position: absolute;
+    top: 74rem;
+    left: 22vw;
+  }
+}
+@media only screen and (max-width: 406px) {
+  #playrDiv {
+    height: 60rem;
+  }
+  .playrListText {
+    position: absolute;
+    top: 52rem;
+    right: 1rem;
+  }
+
+  .playrPhone {
+    width: 13rem;
+    position: absolute;
+    top: 78rem;
+    left: 23vw;
+  }
+}
+
+/* Github */
+@media only screen and (max-width: 1345px) {
+  .sideWaysIOS {
+    width: 35rem;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  #githubDiv {
+    display: flex;
+    flex-direction: row;
+    height: 45rem;
+  }
+
+  .iosText {
+    position: absolute;
+    top: -1rem;
+    right: 6vw;
+  }
+
+  .iosText p {
+    width: 60vw;
+  }
+
+  .sideWaysIOS {
+    position: absolute;
+    top: 25rem;
+    right: 26vw;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .sideWaysIOS {
+    position: absolute;
+    top: 25rem;
+    right: 20vw;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .sideWaysIOS {
+    position: absolute;
+    top: 25rem;
+    right: 19vw;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .iosText {
+    position: absolute;
+    top: -1rem;
+    right: 6rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .sideWaysIOS {
+    position: absolute;
+    top: 25rem;
+    right: 15vw;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .sideWaysIOS {
+    position: absolute;
+    top: 27rem;
+    right: 19vw;
+    width: 30rem;
+  }
+}
+@media only screen and (max-width: 565px) {
+  .sideWaysIOS {
+    position: absolute;
+    top: 27rem;
+    right: 19vw;
+    width: 27rem;
+  }
+
+  .iosText {
+    position: absolute;
+    left: -1vw;
+  }
+
+  .iosText p {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .sideWaysIOS {
+    position: absolute;
+    top: 30rem;
+    right: 19vw;
+    width: 23rem;
+  }
+
+  .iosText {
+    position: absolute;
+    left: -3vw;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .iosText {
+    position: absolute;
+    left: -7vw;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .sideWaysIOS {
+    position: absolute;
+    top: 32rem;
+    right: 8vw;
+    width: 22rem;
+  }
+
+  .iosText {
+    position: absolute;
+    left: -9vw;
+  }
+}
+@media only screen and (max-width: 373px) {
+  #githubDiv {
+    display: flex;
+    flex-direction: row;
+    height: 47rem;
+  }
+
+  .sideWaysIOS {
+    position: absolute;
+    top: 35rem;
+    right: 8vw;
+    width: 23rem;
+  }
+
+  .iosText {
+    position: absolute;
+    left: -9vw;
+    padding-top: 0rem;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .sideWaysIOS {
+    position: absolute;
+    top: 35rem;
+    right: 8vw;
+    width: 23rem;
+  }
+
+  .iosText {
+    position: absolute;
+    left: -9vw;
+    padding-top: 0rem;
+  }
+}
+
+/* podPile */
+@media only screen and (max-width: 1300px) {
+  .podpileText {
+    margin-top: 9rem;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .podpileText {
+    width: 60vw;
+    margin-left: -3vw;
+    margin-top: 8rem;
+  }
+  .podpilePhone {
+    width: 12rem;
+    margin-right: 10vw;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #podpileDiv {
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+  }
+
+  .podpilePhone {
+    position: absolute;
+    top: 132rem;
+    left: 25vw;
+  }
+  .podpileText {
+    position: absolute;
+    top: 112rem;
+    left: 17vw;
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #podpileDiv {
+    display: flex;
+    flex-direction: column;
+    height: 53rem;
+  }
+  .podpilePhone {
+    position: absolute;
+    top: 136rem;
+    left: 24vw;
+  }
+  .podpileText {
+    position: absolute;
+    top: 112rem;
+    left: 17vw;
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 610px) {
+  #podpileDiv {
+    display: flex;
+    flex-direction: column;
+    height: 53rem;
+  }
+  .podpilePhone {
+    position: absolute;
+    top: 156rem;
+    left: 24vw;
+  }
+  .podpileText {
+    position: absolute;
+    top: 132rem;
+    left: 17vw;
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #podpileDiv {
+    display: flex;
+    flex-direction: column;
+    height: 53rem;
+  }
+  .podpilePhone {
+    position: absolute;
+    top: 167rem;
+    left: 24vw;
+  }
+  .podpileText {
+    position: absolute;
+    top: 142rem;
+    left: 17vw;
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 512px) {
+  #podpileDiv {
+    display: flex;
+    flex-direction: column;
+    height: 53rem;
+  }
+  .podpilePhone {
+    position: absolute;
+    top: 170rem;
+    left: 18vw;
+  }
+  .podpileText {
+    position: absolute;
+    top: 144rem;
+    left: 10vw;
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 511px) {
+  #podpileDiv {
+    display: flex;
+    flex-direction: column;
+    height: 53rem;
+  }
+  .podpilePhone {
+    position: absolute;
+    top: 170rem;
+    left: 18vw;
+  }
+  .podpileText {
+    position: absolute;
+    top: 144rem;
+    left: 10vw;
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .podpilePhone {
+    position: absolute;
+    top: 171rem;
+    left: 3rem;
+  }
+}
+@media only screen and (max-width: 412px) {
+  #podpileDiv {
+    display: flex;
+    flex-direction: column;
+    height: 57rem;
+  }
+  .podpilePhone {
+    position: absolute;
+    top: 175rem;
+    left: 10vw;
+  }
+  .podpileText {
+    position: absolute;
+    top: 144rem;
+    left: 10vw;
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 406px) {
+  #podpileDiv {
+    display: flex;
+    flex-direction: column;
+    height: 57rem;
+  }
+  .podpilePhone {
+    position: absolute;
+    top: 180rem;
+    left: 10vw;
+  }
+  .podpileText {
+    position: absolute;
+    top: 150rem;
+    left: 10vw;
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 380px) {
+  #podpileDiv {
+    display: flex;
+    flex-direction: column;
+    height: 57rem;
+  }
+  .podpilePhone {
+    position: absolute;
+    top: 180rem;
+    left: 8vw;
+  }
+  .podpileText {
+    position: absolute;
+    top: 150rem;
+    left: 10vw;
+    width: 90vw;
+  }
+}
+
+/* Weather APP */
+@media only screen and (max-width: 1050px) {
+  .weatherImg {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .weatherPhone1 {
+    width: 10rem;
+    height: 21rem;
+    margin-top: 3rem;
+  }
+  .weatherPhone2 {
+    width: 10rem;
+    height: 21rem;
+    margin-top: 12rem;
+  }
+
+  .weatherText {
+    width: 55vw;
+    margin-right: -5vw;
+  }
+}
+@media only screen and (max-width: 720px) {
+  #weatherDiv {
+    display: flex;
+    flex-direction: column;
+    height: 51rem;
+  }
+  .weatherText {
+    position: absolute;
+    top: -4rem;
+    left: 15vw;
+  }
+
+  .weatherImg {
+    position: absolute;
+    top: 27rem;
+    left: 20vw;
+  }
+
+  .weatherPhone1,
+  .weatherPhone2 {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 595px) {
+  .weatherText {
+    position: absolute;
+    top: -5rem;
+    left: 3vw;
+    width: 80vw;
+  }
+
+  .weatherImg {
+    position: absolute;
+    top: 25rem;
+    left: 15vw;
+  }
+}
+@media only screen and (max-width: 505px) {
+  .weatherText {
+    position: absolute;
+    top: -4rem;
+    left: 3vw;
+    width: 80vw;
+  }
+  .weatherImg {
+    position: absolute;
+    top: 26rem;
+    left: 11vw;
+  }
+  #weatherDiv {
+    display: flex;
+    flex-direction: column;
+    height: 49rem;
+  }
+}
+@media only screen and (max-width: 488px) {
+  #weatherDiv {
+    display: flex;
+    flex-direction: column;
+    height: 52rem;
+  }
+  .weatherImg {
+    position: absolute;
+    top: 30rem;
+    left: 11vw;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .weatherImg {
+    position: absolute;
+    top: 30rem;
+    left: 4vw;
+  }
+}

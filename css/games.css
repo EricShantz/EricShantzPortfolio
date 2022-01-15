@@ -1,0 +1,648 @@
+.darkTop {
+  min-width: 100vw;
+  height: 47rem;
+  background-color: #101e1e;
+  position: absolute;
+  top: 3.9rem;
+  left: 0;
+  z-index: 10;
+}
+
+.portfolioHeader {
+  color: white;
+  text-align: center;
+  margin-top: 8rem;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+}
+
+.unityLogo {
+  width: 13.5rem;
+  margin-left: -0.82rem;
+}
+
+.whiteCircle {
+  display: block;
+  margin: auto;
+  background-color: white;
+  width: 13.5rem;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.redLine {
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 5rem;
+  height: 3px;
+  background-color: rgb(204, 1, 1);
+  margin-bottom: 3rem;
+}
+
+.aboutGames {
+  margin: auto;
+  text-align: center;
+  width: 65vw;
+}
+
+.aboutGames p {
+  color: white;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  line-height: 2rem;
+}
+
+#downArrowDiv {
+  background-color: #ffa700;
+  border-radius: 50px;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 49rem;
+  left: 48vw;
+  z-index: 11;
+  transition: all 0.6s;
+}
+
+#downArrowDiv:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.downArrow {
+  text-align: center;
+  color: white;
+}
+
+i.material-icons.downArrow {
+  display: block;
+  margin: auto;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.listDiv {
+  position: absolute;
+  top: 50rem;
+  left: 0;
+}
+
+.listItems {
+  height: auto;
+  width: 100vw;
+  z-index: -10;
+}
+
+.listItems a {
+  border-radius: 50px;
+  background-color: #d38d0e;
+  width: 10rem;
+}
+
+.listText p {
+  width: 80%;
+}
+
+.listText {
+  margin-top: -4rem;
+}
+
+/* =================lone pilot================ */
+#lonePilotDiv {
+  display: flex;
+  flex-direction: row;
+  height: 42rem;
+  background-color: white;
+}
+
+.lonePilotListText {
+  width: 40vw;
+  color: black;
+  position: absolute;
+  top: 55rem;
+  left: 10vw;
+}
+
+.lonePilotListText p {
+  width: 100%;
+}
+
+.lonePilotCard {
+  width: 38rem;
+  position: absolute;
+  top: 48rem;
+  right: 3rem;
+}
+
+/* =================space breaker================ */
+
+#spaceBreakerDiv {
+  display: flex;
+  flex-direction: row;
+  height: 42rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.spaceBreakerListText {
+  width: 55vw;
+  color: white;
+  position: absolute;
+  top: 14rem;
+  margin-left: 50vw;
+}
+
+.spaceBreakerCard {
+  width: 38rem;
+  position: absolute;
+  top: 7rem;
+  left: 3rem;
+}
+
+/* =================cornelius winchester================ */
+
+#CandHDiv {
+  background-color: #284d4d;
+
+  display: flex;
+  flex-direction: row;
+  height: 42rem;
+}
+
+.CandHListText {
+  width: 50vw;
+  color: white;
+  position: absolute;
+  top: 98rem;
+  margin-left: 50vw;
+}
+
+.CandHCard {
+  width: 38rem;
+  position: absolute;
+  top: 92rem;
+  left: 3rem;
+}
+
+/* =================number wizard================ */
+
+#numberWizDiv {
+  display: flex;
+  flex-direction: row;
+  height: 42rem;
+  background-color: #533b8e;
+}
+
+.numberWizardListText {
+  width: 50vw;
+  color: white;
+  position: absolute;
+  top: 143rem;
+  margin-left: 5vw;
+}
+
+.numberWizCard {
+  width: 38rem;
+  position: absolute;
+  top: 135rem;
+  right: 3rem;
+}
+
+/* =============Media Queries============== */
+
+/* main body */
+@media only screen and (max-width: 1300px) {
+  img.spaceBreakerCard {
+    width: 30rem;
+    position: absolute;
+    top: 9rem;
+    left: 3rem;
+  }
+  img.lonePilotCard {
+    width: 30rem;
+    position: absolute;
+    top: 50rem;
+    right: 3rem;
+  }
+  img.CandHCard {
+    width: 30rem;
+    position: absolute;
+    top: 95rem;
+    right: 3rem;
+  }
+  img.numberWizCard {
+    width: 30rem;
+    position: absolute;
+    top: 137rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  img.spaceBreakerCard {
+    width: 25rem;
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+  }
+  img.lonePilotCard {
+    width: 25rem;
+    position: absolute;
+    top: 52rem;
+    right: 3rem;
+  }
+  img.CandHCard {
+    width: 25rem;
+    position: absolute;
+    top: 96rem;
+    right: 3rem;
+  }
+  img.numberWizCard {
+    width: 25rem;
+    position: absolute;
+    top: 138rem;
+    right: 3rem;
+  }
+}
+@media only screen and (max-width: 860px) {
+  img.spaceBreakerCard {
+    width: 22rem;
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+  }
+  img.lonePilotCard {
+    width: 22rem;
+    position: absolute;
+    top: 54rem;
+    right: 2rem;
+  }
+  img.CandHCard {
+    width: 22rem;
+    position: absolute;
+    top: 100rem;
+    right: 2rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  /*===================== space breaker ====================*/
+  img.spaceBreakerCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 28vw;
+  }
+  .spaceBreakerListText {
+    width: 80vw;
+    position: absolute;
+    top: 25rem;
+    right: 0rem;
+  }
+  img.lonePilotCard {
+    width: 22rem;
+    position: absolute;
+    top: 45rem !important;
+    left: 30vw !important;
+  }
+
+  .lonePilotListText {
+    width: 80vw;
+    position: absolute;
+    top: 25rem;
+    left: 22vw !important;
+  }
+  img.CandHCard {
+    width: 22rem;
+    position: absolute;
+    top: 87rem !important;
+    left: 6vw !important;
+  }
+
+  .CandHListText {
+    width: 80vw;
+    position: absolute;
+    top: 112rem;
+    right: -4vw !important;
+  }
+
+  img.numberWizCard {
+    width: 22rem;
+    position: absolute;
+    top: 130rem !important;
+    left: 30vw !important;
+  }
+
+  img.lonePilotCard {
+    position: absolute;
+    top: 37rem;
+    left: 25vw;
+  }
+  .lonePilotListText {
+    position: absolute;
+    width: 62vw;
+    top: 68rem;
+    left: 8vw;
+  }
+
+  img.CandHCard {
+    margin-top: 1rem;
+    margin-left: 25vw;
+  }
+
+  .CandHH2 {
+    width: 62vw;
+    font-size: 2.5rem;
+    margin-top: 0rem;
+  }
+
+  img.numberWizCard {
+    position: absolute;
+    top: 120rem;
+    left: 30vw !important;
+  }
+  .numberWizardListText {
+    position: absolute;
+    width: 80vw;
+    top: 150rem;
+    left: 19vw !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  img.spaceBreakerCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 22vw;
+  }
+  img.lonePilotCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 22vw !important;
+  }
+  img.CandHCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 0vw !important;
+  }
+  img.numberWizCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 25vw !important;
+  }
+
+  .numberWizardListText > h2 {
+    width: 60vw;
+  }
+}
+@media only screen and (max-width: 518px) {
+  .CandHH2 {
+    margin-top: -2.5rem !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  img.spaceBreakerCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 18vw;
+  }
+
+  .spaceBreakerListText {
+    width: 80vw;
+    position: absolute;
+    top: 25rem;
+    right: 5vw;
+  }
+  img.lonePilotCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 17vw !important;
+  }
+
+  .lonePilotListText {
+    width: 80vw;
+    position: absolute;
+    top: 65rem !important;
+    left: 15vw !important;
+  }
+  img.CandHCard {
+    width: 22rem;
+    position: absolute;
+    top: 86rem !important;
+    left: -7vw !important;
+  }
+
+  .CandHListText {
+    width: 80vw;
+    position: absolute;
+    top: 110rem !important;
+    left: -35vw !important;
+  }
+
+  img.numberWizCard {
+    width: 22rem;
+    position: absolute;
+    top: 130rem !important;
+    left: 17vw !important;
+  }
+
+  .numberWizardListText {
+    width: 80vw;
+    position: absolute;
+    top: 150rem !important;
+    left: 15vw !important;
+  }
+}
+@media only screen and (max-width: 440px) {
+  img.spaceBreakerCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 10vw;
+  }
+  .spaceBreakerListText {
+    width: 80vw;
+    position: absolute;
+    top: 25rem;
+    right: 8vw;
+  }
+  img.lonePilotCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 12vw !important;
+  }
+
+  .lonePilotListText {
+    width: 80vw;
+    position: absolute;
+    top: 25rem;
+    left: 12vw !important;
+  }
+  img.CandHCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: -13vw !important;
+  }
+
+  .CandHListText {
+    width: 90vw;
+    position: absolute;
+    top: 25rem;
+    left: -38vw !important;
+  }
+
+  #numberWizDiv {
+    height: 46rem;
+  }
+
+  img.numberWizCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 12vw !important;
+  }
+
+  .numberWizardListText {
+    width: 90vw;
+    position: absolute;
+    top: 25rem;
+    left: 8vw !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  img.spaceBreakerCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 7vw;
+  }
+
+  .spaceBreakerListText {
+    width: 80vw;
+    position: absolute;
+    top: 25rem;
+    right: 12vw;
+  }
+
+  img.lonePilotCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 8vw !important;
+  }
+
+  .lonePilotListText {
+    width: 80vw;
+    position: absolute;
+    top: 25rem;
+    left: 8vw !important;
+  }
+  img.CandHCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: -16vw !important;
+  }
+
+  .CandHListText {
+    width: 90vw;
+    position: absolute;
+    top: 25rem;
+    left: -41vw !important;
+  }
+
+  img.numberWizCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 8vw !important;
+  }
+
+  .numberWizardListText {
+    width: 80vw;
+    position: absolute;
+    top: 25rem;
+    left: 8vw !important;
+  }
+}
+@media only screen and (max-width: 384px) {
+  img.spaceBreakerCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 6vw;
+  }
+
+  .spaceBreakerListText {
+    width: 90vw;
+    position: absolute;
+    top: 25rem;
+    right: 4vw;
+  }
+
+  img.lonePilotCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 6vw !important;
+  }
+
+  .lonePilotListText {
+    width: 80vw;
+    position: absolute;
+    top: 25rem;
+    left: 6vw !important;
+  }
+  img.CandHCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: -20vw !important;
+  }
+
+  .CandHListText {
+    width: 95vw;
+    position: absolute;
+    top: 25rem;
+    left: -43vw !important;
+  }
+  img.numberWizCard {
+    width: 22rem;
+    position: absolute;
+    top: 4rem;
+    left: 5vw !important;
+  }
+}
+
+/* about games */
+@media only screen and (max-width: 650px) {
+  .aboutGames {
+    width: 80vw;
+  }
+  .portfolioHeader {
+    margin-top: 3rem;
+  }
+  .whiteCircle {
+    margin-top: -2rem;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .aboutGames {
+    margin-top: -1rem;
+    width: 90vw;
+    margin-left: 1rem;
+  }
+  #downArrowDiv {
+    margin-left: -4vw;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #downArrowDiv {
+    margin-left: -6vw;
+  }
+}

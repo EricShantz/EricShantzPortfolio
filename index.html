@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <script src="./js/main.js" defer></script>
+  <link rel="preload" href="./scene.json" as="fetch">
+  <title>Eric Shantz - Portfolio</title>
+</head>
+
+<body id="homePage">
+  <main>
+    <div class="welcome">
+      <h2 class="welcomeText">Hi, I'm Eric. Welcome to my website.</h2>
+    </div>
+
+    <div class="center" id="portfolioBtn">
+      <a href="./html/portfolio.html" class="seeMyWorkDiv">
+        <div class="seeMyWork">
+          <p class="seeMyWorkBtn">See my portfolio</p>
+        </div>
+      </a>
+    </div>
+    <p class="splineInstructions">{ Drag to rotate, pinch to zoom. } </p>
+    <div id="spinner" class="loader show"></div>
+
+    <div id='container'>
+      <canvas id="canvas3d"></canvas>
+    </div>
+
+
+
+
+  </main>
+  <script type="module">
+    import { Application } from './js/runtime.js';
+    const app = new Application();
+    app.load('./scene.json');
+  </script>
+</body>
+
+</html>

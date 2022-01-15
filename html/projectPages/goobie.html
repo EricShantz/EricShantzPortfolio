@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/projectStyles/goobie.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="../../js/main.js" defer></script>
+  <title>Eric Shantz - Portfolio</title>
+</head>
+
+<body>
+  <!-- ============mobile hamburger menu============== -->
+  <nav class="transparent z-depth-0 navbar-fixed">
+    <div class="nav-wrapper">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
+        <ul class="right hide-on-med-and-down header" id="portfolioHeader">
+          <li><a href="../../index.html" class="links">Home</a></li>
+          <li><a href="../portfolio.html" class="activeTab">Portfolio</a></li>
+          <li><a href="../games.html" class="links">Games</a></li>
+          <li><a href="../resume.html" class="links">Resume</a></li>
+          <li><a href="../contact.html" class="links">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <img src="../../assets/a-team-christmas.jpg" alt="My Dev Team" id="a-team">
+
+    <li><a href="../../index.html" class="sidenav-active"><i class="material-icons">home</i>Home</a></li>
+    <li><a href="../../html/portfolio.html"><i class="material-icons">book</i>Portfolio</a></li>
+    <li><a href="../../html/games.html"><i class="material-icons">games</i>Games</a></li>
+    <li><a href="../../html/resume.html"><i class="material-icons">filter_none</i>Resume</a></li>
+    <li><a href="../../html/contact.html"><i class="material-icons">person</i>Contact</a></li>
+  </ul>
+
+  <!-- ============mobile hamburger menu============== -->
+
+  <div class="headerBackground"></div>
+
+  <main>
+    <div class="darkTop">
+      <div class="goobieIconPosition">
+        <img src="../../assets/graphics/goobieIcon.png" alt="goobie logo" class="goobieLogo">
+      </div>
+      <p class="portfolioHeaderProjects">Goobie Games</p>
+      <div class="redLine"></div>
+    </div>
+
+    <section class="projectDetails">
+
+      <div id="aboutDiv">
+        <p class="aboutHeader">About the Project</p>
+        <div class="aboutTextDiv">
+          <p class="aboutText">Goobie Games is an interactive cross-platform application developed with
+            React
+            Native.
+            It is an offline, user-focused game list app that has players choose a Name and Avatar, then randomly
+            selects
+            a player to choose a game for the party to play. Once the game is finished, the players will shuffle again
+            and
+            pick more games!
+          </p>
+
+          <div class="largeIcons">
+            <video src="../../assets/graphics/goobieDemo.mp4" alt="goobie demo" controls type="video/mp4" autoplay
+              id="goobieDemo">
+          </div>
+        </div>
+      </div>
+
+      <div id="techUsed">
+        <p class="subheadingLeft">Technologies Used</p>
+
+        <div class="techUsedLeftText">
+          <p class="projectDetailsTextLeft">Built with React Native, Goobie Games utilizes many of the most prominent
+            technologies available in the framework including (but not limited to) React Native core components (View,
+            Text, Flatlist, Keyboard Avoiding View, Pressable, etc) Context, Hooks, Stylesheets,
+            Animation API, Sound API, Alert API, Camera API, GestureHandler API, as well as other Expo technologies.
+          </p>
+
+          <img src="../../assets/graphics/reactEG.png" alt="" class="reactEG">
+        </div>
+      </div>
+
+      <div id="implementation">
+        <div class="techUsedRightText">
+          <div class="techImgs">
+            <img src="../../assets/graphics/goolgePlay.png" alt="" class="googlePlay">
+            <img src="../../assets/graphics/expoPub.png" alt="" class="expoPub">
+          </div>
+          <div class="techText">
+            <p class="subheadingRight">Implementation</p>
+            <p class="projectDetailsTextRight">This app was initally published with Expo as part of a school project,
+              but was very quickly after approved on the Google Play Store. A benefit of using Expo for the project is
+              that it makes building APKs quick and easy, allowing for smooth updates on Google Console.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    })
+  </script>
+</body>
+
+</html>

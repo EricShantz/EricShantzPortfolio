@@ -1,0 +1,1034 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.darkTop {
+  width: 100vw;
+  height: 26rem;
+  background-color: rgba(0, 0, 0, 0.609);
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.portfolioHeaderProjects {
+  color: white;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.redLine {
+  margin: auto;
+  width: 5rem;
+  height: 3px;
+  background-color: rgb(204, 1, 1);
+  margin-bottom: 0rem;
+}
+
+.goobieLogo {
+  width: 8rem;
+  border-radius: 20px;
+  margin-bottom: 0rem;
+}
+
+.goobieIconPosition {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.projectDetails {
+  position: absolute;
+  top: 23rem;
+  width: 100vw;
+}
+
+.projectDetails .subheading {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.projectDetailsText {
+  display: block;
+  margin: auto;
+  color: white;
+  font-size: 1.2rem;
+  width: 60vw;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+.projectDetailsTextLeft {
+  display: block;
+  color: white;
+  font-size: 1.2rem;
+  width: 40vw;
+  margin-right: 3vw;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* =-==============ABOUT================-= */
+#aboutDiv {
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 41rem;
+  position: absolute;
+  top: 3rem;
+}
+
+.aboutHeader {
+  margin-left: 18vw;
+  text-align: left;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 12rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.aboutTextDiv {
+  margin-left: 10vw;
+}
+
+.aboutText {
+  display: block;
+  color: black;
+  font-size: 1.2rem;
+  width: 40vw;
+  padding-right: 3vw;
+  margin-left: 8vw;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#goobieDemo {
+  display: block;
+  width: 16rem;
+  position: absolute;
+  top: 2rem;
+  right: 25vw;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(75, 75, 75, 0.63);
+  transition: all 0.4s;
+}
+
+#goobieDemo:hover {
+  transform: scale(1.05);
+}
+/* =-================TECH USED START==========-= */
+
+#techUsed {
+  position: absolute;
+  top: 44rem;
+  left: 0;
+  width: 100vw;
+  height: 40rem;
+  background-color: rgb(250, 250, 250);
+}
+
+.subheadingLeft {
+  text-align: left;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 13rem;
+  margin-left: 10vw;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.techUsedLeftText {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin-left: 10vw;
+}
+
+.projectDetailsTextLeft {
+  color: black;
+}
+
+.reactEG {
+  height: 23rem;
+  width: auto;
+  margin-top: -6rem;
+  box-shadow: 5px 5px 10px rgba(75, 75, 75, 0.63);
+}
+
+/* =-===============IMPLEMENTATION USED===============-= */
+#implementation,
+#implementationPlayr,
+#implementationGit,
+#implementationWeather {
+  margin-top: 14rem;
+  position: absolute;
+  top: 70rem;
+  left: 0;
+  width: 100vw;
+  height: 38rem;
+  background-color: rgb(255, 255, 255);
+}
+
+#implementation img,
+#implementationPlayr img {
+  margin-top: 3rem;
+  margin-left: 2vw;
+}
+
+#playerImpImg {
+  width: 35rem;
+  margin-top: 9rem !important;
+}
+
+#weatherImpImg {
+  width: 35rem;
+  margin-top: 8rem !important;
+}
+
+.subheadingRight {
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Libre Baskerville', serif;
+  margin-top: 12rem;
+  margin-left: 5vw;
+}
+
+.projectDetailsTextRight {
+  display: block;
+  color: black;
+  font-size: 1.2rem;
+  width: 35vw;
+  margin: 0 5vw 0 0;
+  font-family: 'Libre Baskerville', serif;
+  margin-left: 5vw;
+}
+
+.techUsedRightText {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin-top: 2rem;
+}
+
+.googlePlay {
+  width: 14rem;
+  height: auto;
+  margin-right: 3rem;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(75, 75, 75, 0.63);
+}
+
+.gitImg {
+  margin-top: 5.5rem;
+}
+
+.expoPub {
+  width: 25rem;
+  margin-right: 3rem;
+  box-shadow: 5px 5px 10px rgba(75, 75, 75, 0.63);
+}
+
+#podpileImgImp {
+  width: 40rem !important;
+  margin-top: 7rem !important;
+}
+
+.techImgs {
+  margin-top: -1.5rem;
+  margin-left: 8vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.techText {
+  margin-top: -3rem;
+  padding-right: 1rem;
+}
+
+/* ======================MEDIA QUERIES====================== */
+
+/* about */
+
+@media only screen and (max-width: 1300px) {
+  video {
+    margin-right: -5rem;
+  }
+
+  .aboutHeader {
+    margin-left: 10vw;
+  }
+
+  .aboutText {
+    margin-left: 0vw;
+  }
+}
+@media only screen and (max-width: 825px) {
+  .aboutText {
+    width: 55vw;
+  }
+
+  .aboutHeader {
+    margin-top: 9rem;
+  }
+
+  video {
+    position: absolute;
+    left: 68vw;
+    width: 12rem !important;
+    margin-top: 3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aboutTextGit {
+    margin-left: 0;
+  }
+
+  .aboutHeaderGit {
+    margin-left: 10vw;
+  }
+  #aboutDiv {
+    display: flex;
+    flex-direction: column;
+    height: 51rem;
+  }
+
+  .aboutHeader {
+    position: absolute;
+    top: -5rem;
+  }
+
+  .aboutText {
+    position: absolute;
+    top: 7rem;
+    width: 90vw;
+  }
+
+  video {
+    position: absolute;
+    left: 30vw;
+    margin-top: 19rem;
+  }
+
+  .playrDemo {
+    margin-top: 21rem;
+    width: 12rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .playrDemo {
+    margin-top: 23rem;
+    width: 11rem !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  #aboutDiv {
+    display: flex;
+    flex-direction: column;
+    height: 55rem;
+  }
+  video {
+    position: absolute;
+    left: 30vw;
+    margin-top: 23rem;
+  }
+  .playrDemo {
+    margin-top: 26rem;
+    width: 11rem !important;
+  }
+
+  .githubDemo {
+    margin-top: 27rem !important;
+  }
+}
+@media only screen and (max-width: 421px) {
+  video {
+    position: absolute;
+    left: 26vw;
+    margin-top: 24rem;
+  }
+}
+@media only screen and (max-width: 372px) {
+  video {
+    position: absolute;
+    left: 25vw;
+    margin-top: 25rem;
+  }
+
+  .playrDemo {
+    margin-top: 29rem;
+    width: 10rem !important;
+  }
+}
+
+/* Tech used */
+@media only screen and (max-width: 1450px) {
+  .reactEG {
+    width: 45rem;
+    height: 26rem;
+  }
+
+  .subheadingLeft {
+    margin-top: 10rem;
+  }
+
+  .projectDetailsTextLeft {
+    margin-top: 0rem;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .reactEG {
+    width: 35rem;
+    height: 19rem;
+    margin-top: -4rem;
+  }
+
+  .subheadingLeft {
+    margin-top: 10rem;
+  }
+
+  .projectDetailsTextLeft {
+    margin-top: 0rem;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  #techUsed {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subheadingLeft {
+    position: absolute;
+    top: -8rem;
+  }
+
+  .projectDetailsTextLeft {
+    position: absolute;
+    top: 8rem;
+    width: 80vw;
+  }
+
+  .reactEG {
+    position: absolute;
+    top: 22rem;
+    left: 28vw;
+    width: 30rem;
+    height: 17rem;
+  }
+}
+@media only screen and (max-width: 870px) {
+  #techUsed {
+    height: 40rem;
+  }
+  #techUsed .alamoFire {
+    width: 25rem !important;
+    height: 17rem !important;
+    margin-left: 5rem !important;
+  }
+
+  .reactEG {
+    position: absolute;
+    top: 22rem;
+    left: 20vw;
+    width: 33rem;
+    height: 18rem;
+  }
+}
+@media only screen and (max-width: 815px) {
+  .reactEG {
+    position: absolute;
+    top: 25rem;
+    left: 20vw;
+    width: 33rem;
+    height: 18rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #techUsed {
+    height: 44rem;
+  }
+
+  .reactEG {
+    position: absolute;
+    top: 25rem;
+    left: 14vw;
+    width: 35rem;
+    height: 18rem;
+  }
+}
+@media only screen and (max-width: 612px) {
+  .reactEG {
+    position: absolute;
+    top: 27rem;
+    left: 10vw;
+    width: 35rem;
+    height: 18rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #techUsed {
+    position: absolute;
+    top: 54rem;
+  }
+
+  .reactEG {
+    position: absolute;
+    top: 28rem;
+    left: 12vw;
+    width: 30rem;
+    height: 15rem;
+  }
+
+  #techUsed .alamoFire {
+    width: 25rem !important;
+    height: 17rem !important;
+    margin-left: 3rem !important;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .reactEG {
+    position: absolute;
+    top: 30rem;
+    left: 10vw;
+    width: 30rem;
+    height: 15rem;
+  }
+
+  .githubDemo {
+    margin-top: 23rem;
+  }
+}
+@media only screen and (max-width: 479px) {
+  #techUsed {
+    position: absolute;
+    top: 58rem;
+  }
+  .reactEG {
+    position: absolute;
+    top: 30rem;
+    left: 5vw;
+    width: 30rem;
+    height: 15rem;
+  }
+  #techUsed .alamoFire {
+    width: 25rem !important;
+    height: 17rem !important;
+    margin-left: 3rem !important;
+    margin-top: -9rem !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #techUsed {
+    position: absolute;
+    top: 58rem;
+  }
+  .reactEG {
+    position: absolute;
+    top: 32rem;
+    left: 14vw;
+    width: 22rem;
+    height: 12rem;
+  }
+  #techUsed .alamoFire {
+    margin-left: -3vw !important;
+  }
+}
+@media only screen and (max-width: 405px) {
+  #techUsed {
+    position: absolute;
+    top: 58rem;
+    height: 50rem;
+  }
+  .reactEG {
+    position: absolute;
+    top: 36rem;
+    left: 10vw;
+    width: 22rem;
+    height: 12rem;
+  }
+  #techUsed .alamoFire {
+    margin-top: -13rem !important;
+  }
+}
+@media only screen and (max-width: 383px) {
+  #techUsed .alamoFire {
+    margin-left: -8vw !important;
+  }
+}
+
+/* implementation */
+
+@media only screen and (max-width: 1400px) {
+  .techImgs {
+    margin-left: 5vw;
+    margin-top: 3rem;
+  }
+
+  #podpileImgImp {
+    margin-top: 3rem !important;
+  }
+
+  #weatherImpImg {
+    width: 35rem;
+    margin-top: 4rem !important;
+  }
+
+  .googlePlay {
+    width: 12rem;
+  }
+  .expoPub {
+    width: 17rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #implementation {
+    height: 55rem;
+  }
+
+  #implementationWeather {
+    height: 50rem;
+  }
+
+  #implementationPlayr {
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+  }
+
+  #implementationGit {
+    height: 50rem;
+  }
+
+  img.googlePlay.gitImg {
+    margin-left: 17vw !important;
+    margin-top: 0rem !important;
+  }
+
+  .techText {
+    position: absolute;
+    top: -2rem;
+    left: 15vw;
+  }
+  .techText p {
+    width: 60vw;
+  }
+
+  .techImgs {
+    margin-top: 18rem;
+    margin-left: 26vw;
+  }
+
+  #implementationWeather {
+    height: 40rem !important;
+  }
+
+  #podpileImgImp {
+    margin-top: -2rem !important;
+    margin-left: -2rem !important;
+  }
+
+  #weatherImpImg {
+    width: 35rem;
+    margin-top: -2rem !important;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .techImgs {
+    margin-top: 18rem;
+    margin-left: 26vw;
+  }
+
+  #implementationWeather img {
+    margin-left: 0rem;
+  }
+
+  #podpileImgImp {
+    margin-top: 1rem !important;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .techImgs {
+    margin-top: 18rem;
+    margin-left: 23vw;
+  }
+  #implementationPlayr img {
+    margin-left: -3vw;
+  }
+
+  #implementationGit img {
+    width: 14rem;
+    height: 27rem;
+    margin-left: 15vw !important;
+  }
+
+  #weatherImpImg {
+    width: 35rem;
+    margin-top: -2rem !important;
+    margin-left: -1vw !important;
+  }
+
+  img.googlePlay.gitImg {
+    margin-left: 15rem !important;
+  }
+
+  .googlePlay {
+    width: 12rem;
+    height: 26rem;
+  }
+
+  .expoPub {
+    width: 20rem;
+    height: 26rem;
+  }
+}
+@media only screen and (max-width: 870px) {
+  #implementation {
+    position: absolute;
+    top: 70rem;
+  }
+  #implementationWeather {
+    position: absolute;
+    top: 70rem;
+  }
+
+  #implementationPlayr {
+    position: absolute;
+    top: 70rem;
+  }
+}
+@media only screen and (max-width: 775px) {
+  .techImgs {
+    margin-top: 18rem;
+    margin-left: 17vw;
+  }
+
+  #playerImpImg {
+    width: 35rem;
+    margin-top: 9rem !important;
+    margin-left: 1rem !important;
+  }
+  #implementationWeather img {
+    margin-top: -1rem !important;
+    margin-left: 1rem !important;
+  }
+
+  #implementationGit {
+    height: 50rem;
+  }
+
+  #implementationPlayr img {
+    margin-left: -6vw;
+  }
+}
+@media only screen and (max-width: 701px) {
+  #implementation {
+    position: absolute;
+    top: 70rem;
+  }
+
+  #playerImpImg {
+    width: 35rem;
+    margin-top: 9rem !important;
+    margin-left: -2rem !important;
+  }
+
+  #implementationPlayr {
+    position: absolute;
+    top: 70rem;
+  }
+
+  #implementationPlayr img {
+    margin-left: -10vw;
+  }
+
+  #podpileImgImp {
+    width: 35rem !important;
+    margin-left: -2vw !important;
+  }
+}
+@media only screen and (max-width: 658px) {
+  #implementation {
+    position: absolute;
+    top: 74rem;
+    height: 45rem;
+  }
+
+  .techImgs {
+    margin-top: 20rem;
+    margin-left: 20vw;
+  }
+
+  #implementationGit {
+    height: 50rem;
+  }
+
+  #implementationWeather img {
+    margin-top: -1rem !important;
+    width: 30rem !important;
+    margin-left: 0rem !important;
+  }
+
+  img.googlePlay.gitImg {
+    margin-left: 8rem !important;
+    margin-top: 0rem;
+  }
+
+  .googlePlay {
+    width: 9rem;
+    height: 19rem;
+    border-radius: 10px;
+  }
+
+  .expoPub {
+    width: 15rem;
+    height: 19rem;
+  }
+
+  #podpileImgImp {
+    width: 35rem !important;
+    margin-left: -6vw !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #implementation {
+    position: absolute;
+    top: 84rem;
+  }
+
+  #implementationWeather {
+    position: absolute;
+    top: 84rem;
+  }
+
+  #playerImpImg {
+    width: 35rem;
+    margin-top: 4rem !important;
+    margin-left: -3rem !important;
+  }
+
+  #implementationWeather img {
+    margin-left: -2rem !important;
+  }
+
+  #implementationPlayr {
+    position: absolute;
+    height: 50rem;
+    top: 84rem;
+  }
+  #implementationGit {
+    position: absolute;
+    top: 84rem;
+    height: 52rem;
+  }
+
+  #implementationPlayr p {
+    width: 90vw;
+    margin-left: -10vw;
+  }
+
+  #implementationPlayr .techImgs {
+    margin-left: 12vw;
+    margin-top: 20rem;
+  }
+
+  .techImgs {
+    margin-top: 20rem;
+    margin-left: 20vw;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #podpileImgImp {
+    width: 30rem !important;
+    margin-left: -3vw !important;
+  }
+
+  #implementationPlayr {
+    height: 47rem;
+  }
+
+  .techImgs {
+    margin-top: 20rem;
+    margin-left: 15vw;
+  }
+
+  .expoPub {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 517px) {
+  #playerImpImg {
+    width: 30rem;
+    margin-top: 6rem !important;
+    margin-left: -2rem !important;
+  }
+
+  img.googlePlay.gitImg {
+    margin-left: 5rem !important;
+  }
+
+  .projectDetailsTextRight {
+    width: 80vw !important;
+  }
+
+  #implementationGit .subheadingRight {
+    margin-left: -1rem;
+  }
+  #implementationGit p {
+    margin-left: -1rem;
+  }
+
+  .techText p {
+    width: 90vw;
+    margin-left: -10vw;
+  }
+
+  .techImgs {
+    margin-top: 20rem;
+    margin-left: 13vw;
+  }
+
+  .googlePlay {
+    width: 8rem;
+    height: 17rem;
+    border-radius: 10px;
+  }
+
+  .expoPub {
+    width: 13rem;
+    height: 17rem;
+  }
+
+  #podpileImgImp {
+    width: 30rem !important;
+    margin-left: -6vw !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  #implementation {
+    position: absolute;
+    top: 88rem;
+  }
+
+  #implementationPlayr {
+    position: absolute;
+    height: 50rem;
+    top: 88rem;
+  }
+
+  #podpileImgImp {
+    width: 27rem !important;
+    margin-left: -6vw !important;
+  }
+  img#playerImpImg {
+    margin-top: 8rem !important;
+  }
+}
+@media only screen and (max-width: 444px) {
+  .techText p {
+    width: 90vw;
+    margin-left: -10vw !important;
+  }
+
+  .techImgs {
+    margin-top: 20rem;
+    margin-left: 7vw;
+  }
+
+  #playerImpImg {
+    width: 27rem;
+    margin-top: 6rem !important;
+    margin-left: 5rem !important;
+  }
+
+  #implementationPlayr .techImgs {
+    margin-left: -10vw;
+    margin-top: 23rem;
+  }
+
+  #podpileImgImp {
+    width: 25rem !important;
+    margin-left: 13vw !important;
+    margin-top: -5rem !important;
+  }
+
+  .podPileImplementation {
+    height: 40rem !important;
+  }
+
+  #implementationGit {
+    height: 55rem !important;
+  }
+
+  img#weatherImpImg {
+    width: 25rem !important;
+    margin-left: 1vw !important ;
+  }
+}
+@media only screen and (max-width: 412px) {
+  #playerImpImg {
+    width: 27rem;
+    margin-top: 6rem !important;
+    margin-left: 4rem !important;
+  }
+
+  .techImgs {
+    margin-top: 22rem;
+    margin-left: 5vw;
+  }
+
+  .expoPub {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  img.googlePlay.gitImg {
+    margin-top: 2rem !important;
+  }
+
+  #playerImpImg {
+    width: 25rem;
+    margin-top: 6rem !important;
+    margin-left: 4rem !important;
+  }
+
+  #implementationGit {
+    height: 55rem;
+  }
+
+  #implementationPlayr .techImgs {
+    margin-left: -10vw;
+    margin-top: 25rem;
+  }
+
+  .techText p {
+    width: 90vw;
+    margin-left: -10vw;
+  }
+
+  .techImgs {
+    margin-top: 22rem;
+    margin-left: 5vw;
+  }
+
+  .googlePlay {
+    margin-right: 0;
+  }
+  .expoPub {
+    margin-right: 0;
+  }
+
+  img#weatherImpImg {
+    width: 25rem !important;
+    margin-left: -6vw !important ;
+  }
+}
+@media only screen and (max-width: 374px) {
+  #playerImpImg {
+    width: 25rem;
+    margin-top: 6rem !important;
+    margin-left: 3rem !important;
+  }
+
+  #podpileImgImp {
+    width: 23rem !important;
+    margin-left: 14vw !important;
+    margin-top: -5rem !important;
+  }
+}
