@@ -22,7 +22,7 @@ body {
   height: 100vh;
 }
 
-/* =================Quarantine Zone=============== */
+/* =================Spline Stuff=============== */
 
 canvas#canvas3d {
   min-width: 120rem !important;
@@ -42,7 +42,7 @@ canvas#canvas3d {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
 }
-/* =================Quarantine Zone Ends=============== */
+/* =================Spline Stuff Ends=============== */
 
 .splineInstructions {
   color: white;
