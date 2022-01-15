@@ -34,7 +34,7 @@ canvas#canvas3d {
 }
 
 #container {
-  width: 100vw;
+  width: 99vw !important;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -58,16 +58,37 @@ canvas#canvas3d {
     margin-top: -8rem;
   }
 }
+@media only screen and (max-width: 650px) {
+  canvas#canvas3d {
+    transform: scale(0.8);
+    margin-top: -12rem;
+  }
+  #container {
+    width: 98vw !important;
+  }
+}
 @media only screen and (max-width: 550px) {
   canvas#canvas3d {
     transform: scale(0.8);
     margin-top: -12rem;
+  }
+  .container {
+    width: 97vw !important;
   }
 }
 @media only screen and (max-width: 400px) {
   canvas#canvas3d {
     transform: scale(0.7);
     margin-top: -12rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  canvas#canvas3d {
+    transform: scale(0.7);
+    margin-top: -12rem;
+  }
+  #container {
+    width: 96vw !important;
   }
 }
 @media only screen and (max-width: 360px) {
