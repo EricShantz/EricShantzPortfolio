@@ -47,7 +47,7 @@ const App = {
     var userAgent = navigator.userAgent.toLowerCase();
     var Android = userAgent.indexOf("android") > -1;
     if(Android && screen.width <= 400) {
-        document.getElementById("canvas3d").style.marginLeft="-160vw"
+        document.getElementById("canvas3d").style.marginLeft="-140vw"
     }
 }
 
