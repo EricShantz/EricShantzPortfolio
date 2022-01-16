@@ -5,6 +5,7 @@ const App = {
     App.addEventListeners()
     if(document.body.id == "homePage"){
       App.checkForSpline()
+      App.checkDeviceType()
     }
   },
 
@@ -40,6 +41,16 @@ const App = {
 
   terminateSpinner(){
   document.getElementById("spinner").setAttribute("class" , "loader hide")
-  }
+  },
+
+  checkDeviceType() {
+    var userAgent = navigator.userAgent.toLowerCase();
+    var Android = userAgent.indexOf("android") > -1;
+    if(Android && screen.width <= 400) {
+        document.getElementById("canvas3d").style.marginLeft="-160vw"
+    }
+}
+
+
 }
 document.addEventListener('DOMContentLoaded', App.init)
