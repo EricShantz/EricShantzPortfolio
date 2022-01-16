@@ -48,7 +48,7 @@ const App = {
     var Android = userAgent.indexOf("android") > -1;
       
     if(Android) {
-        document.getElementById("canvas3d").style.marginLeft="-225vw"
+        document.getElementById("canvas3d").style.marginLeft="-200vw"
     }
 }
 
