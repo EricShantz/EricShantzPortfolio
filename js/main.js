@@ -37,6 +37,10 @@ const App = {
         clearInterval(splineInterval)
       }
     }, 500);
+
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      alert('you are on android')
+      }
   },
 
   terminateSpinner(){
