@@ -5,7 +5,7 @@ const App = {
     App.addEventListeners()
     if(document.body.id == "homePage"){
       App.checkForSpline()
-      
+      App.checkDeviceType()
     }
   },
 
