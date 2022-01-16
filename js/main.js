@@ -33,7 +33,7 @@ const App = {
   checkForSpline(){
     let splineInterval = setInterval(() => {
       if(document.readyState === 'complete'){
-        App.terminateSpinner()
+        App.terminateSpinner() 
         clearInterval(splineInterval)
       }
     }, 500);
