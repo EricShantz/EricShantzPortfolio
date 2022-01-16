@@ -37,15 +37,20 @@ const App = {
         clearInterval(splineInterval)
       }
     }, 500);
-
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      alert('you are on android')
-      }
   },
 
   terminateSpinner(){
   document.getElementById("spinner").setAttribute("class" , "loader hide")
   },
+
+  checkDeviceType() {
+    var userAgent = navigator.userAgent.toLowerCase();
+    var Android = userAgent.indexOf("android") > -1;
+      
+    if(Android) {
+        alert("You are on android")
+    }
+}
 
 
 }
